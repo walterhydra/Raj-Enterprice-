@@ -22,6 +22,7 @@ import { TestimonialsSection } from "@/components/site/TestimonialsSection";
 import { ClientsMarquee } from "@/components/site/ClientsMarquee";
 import { FAQSection } from "@/components/site/FAQSection";
 import { WhyChooseUsSection } from "@/components/site/WhyChooseUsSection";
+import { BusinessCardSection } from "@/components/site/BusinessCardSection";
 import { useReveal } from "@/hooks/use-reveal";
 import { motion } from "framer-motion";
 
@@ -352,6 +353,7 @@ function HomePage() {
       <ClientsMarquee />
       <IndustriesSection />
       <ProcessSection />
+      <BusinessCardSection />
       <TestimonialsSection />
       <FAQSection />
       <CTABand />
